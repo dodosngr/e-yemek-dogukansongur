@@ -1,0 +1,67 @@
+.cart-header {
+  padding-top: 0.5rem;
+}
+
+.orders {
+  margin: 2rem 0 0 0;
+  min-height: calc(100vh - 15rem);
+}
+
+.orders-heading,
+.orders-total {
+  width: 100%;
+  max-width: 600px;
+}
+.orders-heading {
+  margin-bottom: 5.5rem;
+  border-bottom: 2px solid #000;
+}
+.orders-total {
+  text-align: right;
+  border-top: 2px solid #000;
+  margin-left: auto;
+  margin-top: 3rem;
+}
+.order-complete {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+
+}
+.mail {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.mail-input {
+  margin-left:5px;
+}
+.name {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.name-input {
+  margin-left: 5px;
+}
+.address-number {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.address-text {
+  margin-left:15px;
+  margin-right:15px;
+}
+.number-input {
+  margin-left: 15px;
+}
+.btn {
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
